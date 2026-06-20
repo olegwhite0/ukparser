@@ -1,3 +1,6 @@
+# Исходные CSV (помещаются пользователем в raw/)
+raw/*.csv
+
 # Промежуточные результаты (генерируются скриптами)
 tobolsk_houses.csv
 buildings_houses.csv

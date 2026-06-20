@@ -14,7 +14,7 @@ import pandas as pd
 
 # Пути — скрипт лежит в work/, данные в dataset/raw/, результат там же где скрипт
 BASE_DIR = os.path.dirname(__file__)
-RAW_DIR = os.path.join(BASE_DIR, "..", "dataset", "raw")
+RAW_DIR = os.path.join(BASE_DIR, "raw")
 OUTPUT = os.path.join(BASE_DIR, "tobolsk_houses.csv")
 
 # Только эти два поля нужны из всего датасета
