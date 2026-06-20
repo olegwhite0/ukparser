@@ -1,0 +1,10 @@
+# Промежуточные результаты (генерируются скриптами)
+tobolsk_houses.csv
+buildings_houses.csv
+compare_not_found.csv
+compare_diff_org.csv
+changes.csv
+
+# Кэш Python
+__pycache__/
+*.pyc
