@@ -1,7 +1,7 @@
 """
 Фильтрация исходных CSV ОЖФ: только дома Тобольска с УК.
 
-Читает pipe-delimited CSV из dataset/raw/, оставляет только записи где:
+Читает pipe-delimited CSV из raw/, оставляет только записи где:
 - Адрес содержит "г. Тобольск" или "г.Тобольск"
 - Поле "Наименование организации, осуществляющей управление домом" заполнено
 
@@ -12,7 +12,7 @@ import os
 
 import pandas as pd
 
-# Пути — скрипт лежит в work/, данные в dataset/raw/, результат там же где скрипт
+# Пути — скрипт лежит в work/, данные в raw/, результат там же где скрипт
 BASE_DIR = os.path.dirname(__file__)
 RAW_DIR = os.path.join(BASE_DIR, "raw")
 OUTPUT = os.path.join(BASE_DIR, "tobolsk_houses.csv")
